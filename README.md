@@ -1,5 +1,5 @@
-# fshn_master_2h
-"FSHN Master's students with limited time? Explore this repository for concise resources to enhance your weekly natural science studies. 📚🔬 #FSHN #Education"
+# CP python basic lessons
+"Explore this repository for concise resources to enhance your weekly natural science studies. 📚🔬"
 
 ## Other helping links:
 - [w3schools python](https://www.w3schools.com/python/default.asp)
