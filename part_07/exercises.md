@@ -19,7 +19,7 @@
 * Find the country with the highest wealth from billionaires using the data obtained from the **billionaires.json** file.
 
 
-**Exercise 4: Analyzing Airport Flight Data**
+**Exercise 3: Analyzing Airport Flight Data**
 
 Consider the provided JSON file ("airlines.json") containing flight data for a specific airport.
 

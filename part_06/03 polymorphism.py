@@ -8,6 +8,7 @@ The below code shows how Python can use two different class types, in the same w
 
 """
 
+
 class India:
     def capital(self):
         print("New Delhi is the capital of India.")
@@ -18,6 +19,7 @@ class India:
     def type(self):
         print("India is a developing country.")
 
+
 class USA:
     def capital(self):
         print("Washington, D.C. is the capital of USA.")
@@ -27,6 +29,7 @@ class USA:
 
     def type(self):
         print("USA is a developed country.")
+
 
 obj_ind = India()
 obj_usa = USA()
@@ -42,9 +45,9 @@ def func(obj):
     obj.language()
     obj.type()
 
+
 obj_ind = India()
 obj_usa = USA()
 
 func(obj_ind)
 func(obj_usa)
-
