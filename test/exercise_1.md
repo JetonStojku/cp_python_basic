@@ -16,7 +16,7 @@ pole_position = 1
    Grand Prix.
 4. Design a method within the class to compute and provide the total duration of a specific Grand Prix event.
 5. Create a function to identify and return the winner of a particular Grand Prix event.
-6. Develop a method to determine and return the pole position holder for a specific Grand Prix.
+6. Develop a function to determine and return the pole position holder for a specific Grand Prix.
 7. Assign each pilot a parameter called "points" to track the points earned in each Grand Prix.
 8. Implement a function to calculate the points earned by each pilot in every Grand Prix.
 9. Finally, generate the final classification for all pilots in this racing season.
