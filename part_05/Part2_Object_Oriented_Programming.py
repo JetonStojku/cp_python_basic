@@ -21,12 +21,10 @@
 #
 # Lets start the lesson by remembering about the Basic Python Objects.
 # For example:
-l = [1,2,3]
-
+l = [1, 2, 3]
 
 # Remember how we could call methods on a list?
 l.count(2)
-
 
 # What we will basically be doing in this lecture is exploring how we could
 # create an Object type like a list. We've already learned about how to create
@@ -62,10 +60,10 @@ print(type({}))
 #
 # Let see how we can use **class**:
 
-
 # Create a new object type called Sample
 class Sample:
     pass
+
 
 # Instance of Sample
 x = Sample()
@@ -106,12 +104,12 @@ print(type(x))
 
 
 class Dog():
-    def __init__(self,breed):
+    def __init__(self, breed):
         self.breed = breed
+
 
 sam = Dog(breed='Lab')
 frank = Dog(breed='Huskie')
-
 
 # Lets break down what we have above.The special method
 #
@@ -143,23 +141,23 @@ frank.breed
 # We apply this logic in the following manner:
 
 class Dog():
-
     # Class Object Attribute
     species = 'mammal'
 
-    def __init__(self,breed,name):
+    def __init__(self, breed, name):
         self.breed = breed
         self.name = name
 
-sam = Dog('Lab','Sam')
+
+sam = Dog('Lab', 'Sam')
 
 sam.name
-
 
 # Note that the Class Object Attribute is defined outside of any methods in the
 # class. Also by convention, we place them first before the init.
 
 sam.species
+
 
 ###################
 # Methods
@@ -198,8 +196,8 @@ class Circle():
 c = Circle()
 
 c.setRadius(2)
-print('Radius is: ',c.getRadius())
-print('Area is: ',c.area())
+print('Radius is: ', c.getRadius())
+print('Area is: ', c.area())
 
 
 # Great! Notice how we used self. notation to reference attributes of the class
@@ -241,6 +239,7 @@ class Dog(Animal):
     def bark(self):
         print("Woof!")
 
+
 d = Dog()
 d.whoAmI()
 d.eat()
@@ -280,7 +279,7 @@ class Book():
         self.pages = pages
 
     def __str__(self):
-        return "Title:%s , author:%s, pages:%s " %(self.title, self.author, self.pages)
+        return "Title:%s , author:%s, pages:%s " % (self.title, self.author, self.pages)
 
     def __len__(self):
         return self.pages
@@ -288,13 +287,13 @@ class Book():
     def __del__(self):
         print("A book is destroyed")
 
+
 book = Book("Python Rocks!", "Jose Portilla", 159)
 
-#Special Methods
+# Special Methods
 print(book)
 print(len(book))
 del book
-
 
 #     The __init__(), __str__(), __len__() and the __del__() methods.
 # These special methods are defined by their use of underscores. They allow us
