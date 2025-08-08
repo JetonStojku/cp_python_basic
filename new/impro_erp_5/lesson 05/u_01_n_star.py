@@ -1,4 +1,4 @@
-''' U1 '''
+""" U1 """
 """
 Ndertoni një program i cili merr nga përdoruesi
 një numër n dhe printon n yje (*) njera pas tjetrës

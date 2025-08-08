@@ -1,4 +1,4 @@
-''' U2 '''
+""" U2 """
 """
 Ndertoni një program i cili merr nga përdoruesi
 një numër n dhe printon një katror me n*n yje
