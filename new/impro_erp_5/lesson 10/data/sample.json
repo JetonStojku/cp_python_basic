@@ -1,14 +1,1 @@
-{
-    "name": "sathiyajith",
-    "rollno": 56,
-    "cgpa": 8.6,
-    "phonenumber": "9976770500",
-    "test": [
-        1,
-        2,
-        3
-    ],
-    "true": true,
-    "false": false,
-    "none": null
-}
+{"name": "sathiyajith", "rollno": 56, "cgpa": 8.6, "phonenumber": "9976770500", "test": [1, 2, 3], "true": true, "false": false, "none": null}

@@ -20,7 +20,7 @@ with open("data/sample.json", "w") as outfile:
 with open("data/sample.json", "w") as outfile:
     json.dump(dictionary, outfile)
 
-with open('sample.json') as openfile:
+with open('data/sample.json') as openfile:
     # Reading from json file
     json_object = json.load(openfile)
 
