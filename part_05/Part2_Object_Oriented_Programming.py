@@ -103,7 +103,7 @@ print(type(x))
 # This method is used to initialize the attributes of an object. For example:
 
 
-class Dog():
+class Dog:
     def __init__(self, breed):
         self.breed = breed
 
@@ -140,7 +140,7 @@ frank.breed
 # breed,name, or other attributes will always be mammals.
 # We apply this logic in the following manner:
 
-class Dog():
+class Dog:
     # Class Object Attribute
     species = 'mammal'
 
@@ -173,7 +173,7 @@ sam.species
 #
 # Lets go through an example of creating a Circle class:
 
-class Circle():
+class Circle:
     pi = 3.14
 
     # Circle get instantiated with a radius (default is 1)
@@ -271,7 +271,7 @@ d.bark()
 # For example Lets create a Book class:
 
 
-class Book():
+class Book:
     def __init__(self, title, author, pages):
         print("A book is created")
         self.title = title
