@@ -217,7 +217,7 @@ print('Area is: ', c.area())
 # Lets see an example by incorporating our previous work on the Dog class:
 
 
-class Animal():
+class Animal:
     def __init__(self):
         print("Animal created")
 
