@@ -36,6 +36,25 @@ def import_student(file_name: str) -> list[Student]:
     return students
 
 
+def find_best_student(students: list[Student]) -> Student:
+    best_student = students[0]
+    for s in students:
+        if s.grade >= best_student.grade:
+            best_student = s
+    return best_student
+
+
+# def find_best_student(students: list[Student]) -> Student:
+#     best_student = 0
+#     best_poz = -1
+#     for i in range(len(students)):
+#         if students[i].grade > best_student:
+#             best_student = students[i].grade
+#             best_poz = i
+#     return students[best_poz]
+
+
 if __name__ == '__main__':
     st = import_student('data/student.json')
-    print(st)
+    # print(st)
+    print(find_best_student(st))
