@@ -6,7 +6,7 @@ from dataclasses import dataclass
 class Person:
     name: str
     citizenship: str
-    worth: int
+    worth: float
 
 
 def import_persons(path: str) -> list[Person]:
