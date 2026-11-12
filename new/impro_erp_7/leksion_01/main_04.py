@@ -1,0 +1,11 @@
+s = 'hello world Again'
+print(s)
+print(s.upper())
+print(s.lower())
+print(s.capitalize())
+print(s.title())
+print(s.split())
+print(s.split('o'))
+print(s.split('ll'))
+print(s.split('world'))
+print(s.split('l'))
