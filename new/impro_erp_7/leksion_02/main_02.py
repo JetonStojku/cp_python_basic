@@ -1,0 +1,21 @@
+lst = [1, 2, 3, 4, 5, 6]
+print(lst)
+lst.append(7)
+print(lst)
+lst.extend([8, 9])
+print(lst)
+lst.pop()
+print(lst)
+lst.insert(1, 10)
+print(lst)
+lst.pop(2)
+print(lst)
+
+lst.reverse()
+print(lst)
+print(sorted(lst))
+print(lst)
+lst.sort()
+print(lst)
+lst[0] = 0
+print(lst)
