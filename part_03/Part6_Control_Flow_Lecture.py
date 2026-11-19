@@ -3,26 +3,27 @@
 ###########################
 
 # Greater than
-1 > 2   # False
+1 > 2  # False
 # Less than
-1 < 2   # True
+1 < 2  # True
 # Greater than or Equal to
 1 >= 1  # True
 # Less than or Equal to
 4 < 4  # False
 # Equality
 1 == 1  # True
-1 == "1"    # False
-'hi' == 'bye'   # False
+1 == "1"  # False
+'hi' == 'bye'  # False
 # Inequality
 1 != 2  # True
-'hi' != 'bye'   # True
+'hi' != 'bye'  # True
 ###########################
 ### LOGICAL OPERATORS #####
 ###########################
 
 # AND
 (1 < 2) and (2 < 3)  # True
+(1 > 2) and (2 < 3)  # False
 
 """
 
@@ -43,6 +44,8 @@ F   T   F
 # Multiple logical operators
 (1 == 2) or (2 == 3) or (4 == 4)  # True
 
+not (1 == 2)  # True
+
 ##################################
 ### if,elif, else Statements #####
 ##################################
@@ -54,13 +57,11 @@ if 1 < 2:
     b = 1
     c = 2
 
-
 if 1 < 2:
     print('Yep!')
 
 if 1 < 2:
     print('yep!')
-
 
 # If Else - Make sure to line up the else with the if statement to "connect" them
 
@@ -77,7 +78,6 @@ if 1 > 2:
 else:
     print('last')
 
-
 # To add more conditions (like else if) you just use a single phrase "elif"
 
 if 1 == 2:
@@ -86,7 +86,6 @@ elif 3 == 3:
     print('middle')
 else:
     print('Last')
-
 
 #####################
 ### FOR LOOPS #######
@@ -98,15 +97,13 @@ seq = [1, 2, 3, 4, 5]
 for item in seq:
     print(item)
 
-
 # Perform an action for every element but doesn't actually involve the elements
 for item in seq:
     print('Yep')
 
-
 # You can call the loop variable whatever you want:
 for jelly in seq:
-    print(jelly+jelly)
+    print(jelly + jelly)
 
 # For Loop with a Dictionary
 ages = {"Sam": 3, "Frank": 4, "Dan": 29}
@@ -133,7 +130,6 @@ for item1, item2 in mypairs:
     print(item1)
     print(item2)
 
-
 #######################
 ### WHILE LOOPS #######
 #######################
@@ -143,8 +139,7 @@ for item1, item2 in mypairs:
 i = 1
 while i < 5:
     print('i is: {}'.format(i))
-    i = i+1
-
+    i = i + 1
 
 # -----------------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------------
@@ -172,11 +167,11 @@ x = [1, 2, 3, 4]
 # We could do this:
 out = []
 for item in x:
-    out.append(item**2)
+    out.append(item ** 2)
 print(out)
 
 # Written in List Comprehension Form
-[item**2 for item in x]
+[item ** 2 for item in x]
 
 # Traditional way to create a dictionary
 square_dict = {}
@@ -184,7 +179,7 @@ for num in range(1, 6):
     square_dict[num] = num ** 2
 
 # Using dictionary comprehension
-square_dict_comp = {num: num**2 for num in range(1, 6)}
+square_dict_comp = {num: num ** 2 for num in range(1, 6)}
 
 # Display the dictionaries
 print("Traditional Dictionary:", square_dict)
