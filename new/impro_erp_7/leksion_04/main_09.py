@@ -1,6 +1,6 @@
 """U2"""
 """
-Ndertoni nje funksion i cili merr nga perdoruesi sa
+Ndertoni nje program i cili merr nga perdoruesi sa
 numra te vargut te fibonacit do te printoje dhe i 
 printon ato.
 
